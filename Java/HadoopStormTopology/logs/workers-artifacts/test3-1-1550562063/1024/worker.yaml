@@ -1,0 +1,4 @@
+worker-id: a3ebcee3-e7f7-480e-ab69-a74cd4c1a2ec
+logs.users: []
+logs.groups: []
+topology.submitter.user: chris

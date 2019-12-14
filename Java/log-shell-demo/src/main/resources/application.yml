@@ -1,0 +1,6 @@
+server:
+  port: 6009
+logging:
+  level:
+    root: debug
+    TestApi: trace

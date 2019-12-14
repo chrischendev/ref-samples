@@ -1,0 +1,8 @@
+server:
+  port: 6005
+spring:
+  application:
+    name: chris-solr
+  data:
+    solr:
+      host: http://10.16.17.143:8983/solr/

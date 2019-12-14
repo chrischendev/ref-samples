@@ -1,0 +1,12 @@
+port: 6067
+file-folder: I:/upload
+
+server:
+  port: ${port}
+
+spring:
+  servlet:
+    multipart:
+      location: ${file-folder}
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/, classpath:/static/, classpath:/public/, file:${spring.servlet.multipart.location}

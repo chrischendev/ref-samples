@@ -1,0 +1,12 @@
+package com.chris.javacv;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ChrisJavacvDemoApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ChrisJavacvDemoApplication.class, args);
+    }
+}

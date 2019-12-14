@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35639ed6-b278-40a9-a69c-134331c34c15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../HadoopStormTopology/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HadoopStormTopology/.idea/json2java.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer/kafka-consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kafka-consumer/src/main/java/com/kafka/consumer/CommonConsts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/CommonConsts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/KafkaMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/MyKafkaProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/MyPartitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormDemo/src/main/java/com/aiways/storm/bolts/MyBolt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormDemo/src/main/java/com/aiways/storm/bolts/MyBolt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormDemo/src/main/java/com/aiways/storm/topologis/MyRemoteTopology.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormDemo/src/main/java/com/aiways/storm/topologis/MyRemoteTopology.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/bolts/MyBolt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/bolts/MyBolt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/bolts/PrintBolt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/bolts/PrintBolt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/datapro/DataWriteUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/datapro/DataWriteUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/datapro/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/datapro/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka/BaseKafkaTopology.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka/KafkaConsts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka/KafkaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-consumer/src/main/java/com/kafka/consumer/MyKafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka/MyKafkaHandleBolt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka/MyKafkaPrintBolt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka/MyKafkaSpout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka/MyKafkaStreamBolt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka/MyKafkaTopology.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka1/KafkaUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka1/MyKafkaBolt1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka1/MyKafkaSpout1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/kafka1/MyKafkaTopology1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/topologis/MyRemoteTopology.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/src/main/java/com/aiways/storm/topologis/MyRemoteTopology.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/bolts/MyBolt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/bolts/MyBolt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/bolts/PrintBolt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/bolts/PrintBolt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/datapro/DataBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/datapro/DataBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/datapro/DataWriteUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/datapro/DataWriteUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/datapro/MessageBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/datapro/MessageBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/datapro/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/datapro/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka/BaseKafkaTopology.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka/KafkaConsts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka/KafkaUtils$CallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka/KafkaUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka/MyKafkaHandleBolt$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka/MyKafkaHandleBolt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka/MyKafkaPrintBolt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka/MyKafkaSpout$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka/MyKafkaSpout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka/MyKafkaStreamBolt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka/MyKafkaTopology.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka1/KafkaUtils$CallBack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka1/KafkaUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka1/MyKafkaBolt1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka1/MyKafkaSpout1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/kafka1/MyKafkaTopology1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/spouts/MySpout.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/spouts/MySpout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/topologis/BaseTopology.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/topologis/BaseTopology.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/topologis/MyRemoteTopology.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/topologis/MyRemoteTopology.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/topologis/MyTopology1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/topologis/MyTopology1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/CommonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/DbUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/DbUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/EJob$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/EJob$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/EJob$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/EJob$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/EJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/EJob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/MessageScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/classes/com/aiways/storm/utils/MessageScheme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/hadoop-storm-topology-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/hadoop-storm-topology-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/surefire-reports/TEST-com.aiways.storm.MainTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/surefire-reports/TEST-com.aiways.storm.MainTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/surefire-reports/com.aiways.storm.MainTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/surefire-reports/com.aiways.storm.MainTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HadoopStormTopology/target/test-classes/com/aiways/storm/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HadoopStormTopology/target/test-classes/com/aiways/storm/MainTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="37" />
+            </state>
+          </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/MyKafkaProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="299" column="11" selection-start-line="299" selection-start-column="11" selection-end-line="299" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0-sources.jar!/org/apache/kafka/clients/producer/ProducerRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
+              <folding>
+                <element signature="e#6108#6109#0" expanded="true" />
+                <element signature="e#6165#6166#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/MyPartitioner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/KafkaMessage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="34" column="119" selection-start-line="34" selection-start-column="119" selection-end-line="34" selection-end-column="119" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/CommonConsts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/KafkaProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/KafkaMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/MyKafkaProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/MyPartitioner.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/softs/apache-maven-3.5.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kafka-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-producer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-producer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="producer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560848982136" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MyKafkaProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chris.kafka.producer.MyKafkaProducer" />
+      <module name="kafka-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chris.kafka.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyKafkaProducer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35639ed6-b278-40a9-a69c-134331c34c15" name="Default Changelist" comment="" />
+      <created>1560840340503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560840340503</updated>
+      <workItem from="1560840345050" duration="8016000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8016000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.32924107" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32924107" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="JSON Viewer" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="JSON Utils" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0-sources.jar!/org/apache/kafka/clients/producer/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="39" column="51" lean-forward="true" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/CommonConsts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/KafkaMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="34" column="119" selection-start-line="34" selection-start-column="119" selection-end-line="34" selection-end-column="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0-sources.jar!/org/apache/kafka/clients/admin/AdminClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/MyKafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0-sources.jar!/org/apache/kafka/clients/producer/ProducerRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="129" column="11" selection-start-line="129" selection-start-column="11" selection-end-line="129" selection-end-column="11" />
+          <folding>
+            <element signature="e#6108#6109#0" expanded="true" />
+            <element signature="e#6165#6166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="299" column="11" selection-start-line="299" selection-start-column="11" selection-end-line="299" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chris/kafka/producer/MyPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

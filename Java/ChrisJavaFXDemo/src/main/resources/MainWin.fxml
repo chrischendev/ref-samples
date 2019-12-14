@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainWin">
+    <children>
+        <HBox accessibleText="fsafsd" layoutX="-1.0" layoutY="-2.0" prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="83.0" text="按钮"/>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

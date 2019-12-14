@@ -1,0 +1,24 @@
+file-folder: F:/Temp/upload
+
+server:
+  port: 9012
+
+spring:
+  mail:
+    default-encoding: utf-8
+    host: smtp.163.com
+    username: chenfabao@163.com
+    password: cls07280221
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+#  servlet:
+#    multipart:
+#      location: ${file-folder}
+  resources:
+#    static-locations: classpath:/META-INF/resources/,classpath:/resources/, classpath:/static/, classpath:/public/, file:${spring.servlet.multipart.location}
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/, classpath:/static/, classpath:/public/,classpath:/errorfile/

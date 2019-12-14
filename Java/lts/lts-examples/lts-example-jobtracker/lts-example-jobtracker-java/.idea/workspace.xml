@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e4270c44-029a-427e-ab23-eab2d3102b49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/libraries/Maven__com_alibaba_fastjson_1_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/libraries/Maven__com_github_ltsopensource_lts_1_7_2_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/libraries/Maven__io_netty_netty_all_4_0_20_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/libraries/Maven__org_mapdb_mapdb_2_0_beta10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-jobclient/lts-example-jobclient-java/lts-example-jobclient-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ltsopensource_lts_1_7_2_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_20_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lts-example-jobtracker-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__com_alibaba_druid_1_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__com_alibaba_fastjson_1_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__com_github_ltsopensource_lts_1_7_2_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-monitor/lts-example-monitor-springboot/lts-example-monitor-springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/libraries/Maven__com_alibaba_fastjson_1_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/libraries/Maven__com_github_ltsopensource_lts_1_7_2_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/libraries/Maven__io_netty_netty_all_4_0_20_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/libraries/Maven__org_mapdb_mapdb_2_0_beta10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java/lts-example-tasktracker-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-client-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-client-demo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-client-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-client-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-client-demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-client-demo/netty-client-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-client-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-server-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-server-demo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-server-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-server-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-server-demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-server-demo/netty-server-demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../netty-server-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../redis-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../redis-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../redis-demo/src/main/java/com/chris/redis/RedisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../redis-demo/src/main/java/com/chris/redis/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/src/main/java/com/chris/netty/client/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/src/main/java/com/chris/netty/client/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/src/main/java/com/chris/netty/client/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/src/main/java/com/chris/netty/client/EchoClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/src/main/java/com/chris/netty/server/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/src/main/java/com/chris/netty/server/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/src/main/java/com/chris/netty/server/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/src/main/java/com/chris/netty/server/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/client/EchoClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/client/EchoClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/client/EchoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/client/EchoClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/client/EchoClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/client/EchoClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/server/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/server/EchoServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/server/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/server/EchoServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/server/EchoServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ChrisNettyDemo/target/classes/com/chris/netty/server/EchoServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../shiro-demo/.idea/dataSources/b7d5f2e3-cb5b-4d36-baec-ae2c01986019.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../shiro-demo/.idea/dataSources/b7d5f2e3-cb5b-4d36-baec-ae2c01986019.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../shiro-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../shiro-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../shiro-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../shiro-demo/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/lts.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ltsopensource/example/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/lts.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/softs/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="E:\softs\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lts-example-jobtracker-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lts-example-jobtracker-java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lts-example-jobtracker-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lts-example-jobtracker-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lts-example-jobtracker-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lts-example-jobtracker-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lts-example-jobtracker-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lts-example-jobtracker-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lts-example-jobtracker-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lts-example-jobtracker-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lts-example-jobtracker-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lts-example-jobtracker-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lts-example-tasktracker/lts-example-tasktracker-java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.ltsopensource.example.java.Main" />
+      <module name="lts-example-jobtracker-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.ltsopensource.example.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4270c44-029a-427e-ab23-eab2d3102b49" name="Default Changelist" comment="" />
+      <created>1561685693833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561685693833</updated>
+      <workItem from="1561685696346" duration="2396000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2396000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5005365" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="JSON Viewer" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/lts.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/ltsopensource/example/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

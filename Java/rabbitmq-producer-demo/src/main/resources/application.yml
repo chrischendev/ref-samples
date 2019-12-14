@@ -1,0 +1,17 @@
+server:
+  port: 8091
+
+spring:
+  rabbitmq:
+    host: 192.168.0.114
+    port: 15672
+    username: guest
+    password: guest
+    virtual-host: /
+    listener:
+      direct:
+        acknowledge-mode: none
+      simple:
+        acknowledge-mode: none
+    publisher-confirms: true
+    publisher-returns: true

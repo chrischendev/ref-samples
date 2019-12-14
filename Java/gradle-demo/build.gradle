@@ -1,0 +1,64 @@
+plugins {
+    id 'java'
+}
+//apply plugin:'maven'
+apply plugin: 'maven-publish'
+
+group 'com.chris'
+//version '1.0.0'
+version '1.0.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven {
+        //maven私服仓库
+        url 'http://maven.ai-ways.com/nexus/content/repositories/snapshots/'
+    }
+    mavenCentral()
+}
+
+dependencies {
+    //用于识别jar依赖的位置和类型 未测试
+    implementation fileTree(dir: 'libs', includes: ['*.jar'], excludes: [])
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    //来自于中央仓库
+    implementation 'com.google.code.gson:gson:2.8.5'
+    //来自于自定义私服仓库
+    implementation 'com.aiways:power-monitor-base-libs:1.0.0-SNAPSHOT'
+}
+
+//打包源码
+task sourceJar(type: Jar) {
+    from sourceSets.main.allJava
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            //指定group/artifact/version信息，可以不填。默认使用项目group/name/version作为groupId/artifactId/version
+            groupId = project.group
+            artifactId = project.name
+            version = project.version
+            //如果是war包填写components.web，如果是jar包填写components.java
+            from components.java
+
+            //配置上传源码
+            artifact sourceJar {
+                classifier "src"
+            }
+
+        }
+    }
+    repositories {
+        maven {
+            //指定要上传的maven私服仓库
+            url = "http://maven.ai-ways.com/nexus/content/repositories/snapshots/"
+            //认证用户和密码
+            credentials {
+                username = 'admin'
+                password = 'Aa1111111'
+            }
+        }
+    }
+}

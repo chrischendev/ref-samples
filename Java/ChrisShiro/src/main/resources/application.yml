@@ -1,0 +1,13 @@
+# 开放修改参数
+port: 6001
+# 开放修改参数
+
+server:
+  port: ${port}
+
+spring:
+  profiles:
+    active: officevm
+
+
+

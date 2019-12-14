@@ -1,0 +1,5 @@
+server:
+  port: 6020
+spring:
+  profiles:
+    active: local

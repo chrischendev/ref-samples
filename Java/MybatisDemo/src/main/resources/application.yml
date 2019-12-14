@@ -1,0 +1,15 @@
+# 开放修改参数
+port: 6022
+# 开放修改参数
+server:
+  port: ${port}
+
+spring:
+  profiles:
+    active: homedev
+
+
+
+
+
+

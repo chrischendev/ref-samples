@@ -1,0 +1,5 @@
+server:
+  port: 6033
+spring:
+  profiles:
+    active: pg

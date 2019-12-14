@@ -1,0 +1,20 @@
+spring:
+  #  kafka:
+  #    producer:
+  #      bootstrap-servers: node5.aiwaystack.com:9092,node6.aiwaystack.com:9092,node7.aiwaystack.com:9092
+  application:
+    name: kafka-sttream-producer
+  cloud:
+    stream:
+      kafka:
+        binder:
+          auto-create-topics: true
+          brokers: node5.aiwaystack.com:9092,node6.aiwaystack.com:9092,node7.aiwaystack.com:9092
+          min-partition-count: 3
+          auto-add-partitions: true
+      bindings:
+        myOutput:
+          destination: ${kafka.topic}
+          content-type: text/plain
+        input:
+          destination: ${kafka.topic}

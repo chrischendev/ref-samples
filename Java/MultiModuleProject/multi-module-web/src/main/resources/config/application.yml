@@ -1,0 +1,11 @@
+server:
+  port: 6010
+swagger:
+  version: ${project.version} #读取pom.xml中的版本号
+  title: 多模块服务接口系统
+  author: Chris Chan
+  service-url: https://www.baidu.com/
+  description: ● 为了便于前端调用做统一封装，所有的接口请求和返回均采用统一的自定义协议进行打包。<br>● 本系统全部采用RequestBody模式，使用POST方式提交。
+  contact:
+    url: http://blog.csdn.net/xxkalychen
+    email: chriachen2018@163.com

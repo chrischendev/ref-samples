@@ -1,0 +1,15 @@
+server:
+  port: 8092
+
+spring:
+  rabbitmq:
+    host: 10.100.2.92
+    port: 5672
+    username: dev_power
+    password: Pass1234
+    virtual-host: power
+    listener:
+      direct:
+        acknowledge-mode: none
+      simple:
+        acknowledge-mode: none

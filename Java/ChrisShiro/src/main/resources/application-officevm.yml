@@ -1,0 +1,22 @@
+# 开放修改参数
+db-url: 10.16.17.162:3307
+db-name: db_chris_shiro
+db-username: root
+db-password: root
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://${db-url}/${db-name}?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: ${db-username}
+    password: ${db-password}
+  #     type: com.alibaba.druid.pool.DruidDataSource
+
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy

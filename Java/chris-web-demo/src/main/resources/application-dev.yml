@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://rm-uf6cv6w6g5l7cdf7x.mysql.rds.aliyuncs.com:3306/tech_dev?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: techdev
+    password: zXAz&o^5
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    database: MYSQL
+    show-sql: true

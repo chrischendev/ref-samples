@@ -1,0 +1,14 @@
+server:
+  port: 8006
+
+spring:
+  application:
+    name: job-client
+regCenter:
+  serverList: 192.168.0.104:2181
+  namespace: chris-ns
+
+stockJob:
+  cron: 0/5 * * * * ?
+  shardingTotalCount: 2
+  shardingItemParameters: 0=0,1=1,2=2

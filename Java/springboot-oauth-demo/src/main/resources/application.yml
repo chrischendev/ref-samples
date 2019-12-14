@@ -1,0 +1,8 @@
+server:
+  port: 6005
+spring:
+  security:
+    user:
+      name: chris
+      password: 123456
+
