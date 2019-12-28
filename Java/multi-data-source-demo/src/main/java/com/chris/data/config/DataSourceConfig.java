@@ -1,4 +1,4 @@
-package com.chris.data;
+package com.chris.data.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;

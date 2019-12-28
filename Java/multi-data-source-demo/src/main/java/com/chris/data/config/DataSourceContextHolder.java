@@ -1,4 +1,4 @@
-package com.chris.data;
+package com.chris.data.config;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;

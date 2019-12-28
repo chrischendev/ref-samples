@@ -1,4 +1,4 @@
-package com.chris.data;
+package com.chris.data.config;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
