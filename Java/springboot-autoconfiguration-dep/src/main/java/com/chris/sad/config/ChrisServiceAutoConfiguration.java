@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * Create by Chris Chan
  * Create on 2020/1/2 2:13
- * Use for:
+ * Use for: 自定义自动配置
  */
 @Configuration
 @ConditionalOnClass(ChrisAutoConfigurationCondition.class)
