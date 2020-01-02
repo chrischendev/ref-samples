@@ -1,10 +1,12 @@
 package com.chris.jpa.custom;
 
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.support.JpaEntityInformation;
 import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
 import org.springframework.util.CollectionUtils;
 
 import javax.persistence.EntityManager;
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
@@ -14,11 +16,14 @@ import java.util.List;
  * Create on 2020/1/2 18:42
  * Use for:
  */
-public class CustomRepositoryImpl<T, ID> extends SimpleJpaRepository<T, ID> implements CustomRepository<T, ID> {
+public class CustomRepositoryImpl<T, ID extends Serializable>
+        extends SimpleJpaRepository<T, ID>
+        implements CustomRepository<T, ID> {
+
     private final EntityManager entityManager;
 
-    public CustomRepositoryImpl(Class<T> domainClass, EntityManager em) {
-        super(domainClass, em);
+    public CustomRepositoryImpl(JpaEntityInformation<T, ?> entityInformation, EntityManager em) {
+        super(entityInformation, em);
         this.entityManager = em;
     }
 

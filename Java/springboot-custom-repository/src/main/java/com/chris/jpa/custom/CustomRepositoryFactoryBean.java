@@ -1,6 +1,7 @@
 package com.chris.jpa.custom;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.support.JpaEntityInformation;
 import org.springframework.data.jpa.repository.support.JpaRepositoryFactory;
 import org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean;
 import org.springframework.data.jpa.repository.support.JpaRepositoryImplementation;
@@ -16,13 +17,10 @@ import java.io.Serializable;
  * Create on 2020/1/2 18:47
  * Use for:
  */
-public class CustomRepositoryFactoryBean<T extends JpaRepository<S, ID>, S, ID extends Serializable> extends JpaRepositoryFactoryBean<T, S, ID> {
-    /**
-     * Creates a new {@link JpaRepositoryFactoryBean} for the given repository interface.
-     *
-     * @param repositoryInterface must not be {@literal null}.
-     */
-    public CustomRepositoryFactoryBean(Class<? extends T> repositoryInterface) {
+public class CustomRepositoryFactoryBean<RI extends JpaRepository<T, ID>, T, ID extends Serializable>
+        extends JpaRepositoryFactoryBean<RI, T, ID> {
+
+    public CustomRepositoryFactoryBean(Class<? extends RI> repositoryInterface) {
         super(repositoryInterface);
     }
 
@@ -31,21 +29,18 @@ public class CustomRepositoryFactoryBean<T extends JpaRepository<S, ID>, S, ID e
         return new CustomRepositoryFactory(entityManager);
     }
 
-    private static class CustomRepositoryFactory extends JpaRepositoryFactory {
+    private static class CustomRepositoryFactory<T, ID extends Serializable> extends JpaRepositoryFactory {
+        private EntityManager entityManager;
 
-        /**
-         * Creates a new {@link JpaRepositoryFactory}.
-         *
-         * @param entityManager must not be {@literal null}
-         */
         public CustomRepositoryFactory(EntityManager entityManager) {
             super(entityManager);
+            this.entityManager = entityManager;
         }
 
         @Override
         protected JpaRepositoryImplementation<?, ?> getTargetRepository(RepositoryInformation information, EntityManager entityManager) {
             //return super.getTargetRepository(information, entityManager);
-            return new CustomRepositoryImpl<>(information.getDomainType(), entityManager);
+            return new CustomRepositoryImpl<T, ID>((JpaEntityInformation<T, ?>) information, entityManager);
         }
 
         @Override
