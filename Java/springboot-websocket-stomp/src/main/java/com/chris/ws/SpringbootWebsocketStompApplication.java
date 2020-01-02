@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 前后端分离
+ * 前端示例 springboot-websocket-stomp-web
  */
 @SpringBootApplication
 public class SpringbootWebsocketStompApplication {
