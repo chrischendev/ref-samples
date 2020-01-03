@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>Spring Boot+WebSocket+广播式</title>
-<!-- 服务器项目 springboot-websocket-stomp -->
+    <!-- 服务器项目 springboot-websocket-stomp -->
 </head>
 <body onload="disconnect()">
 <noscript><h2 style="color: #ff0000">貌似你的浏览器不支持websocket</h2></noscript>
@@ -37,11 +37,11 @@
         var socket = new SockJS('http://localhost:8029/chat');
         // 使用 STOMP 子协议的 WebSocket 客户端
         stompClient = Stomp.over(socket);
-        stompClient.connect({}, function(frame) {
+        stompClient.connect({}, function (frame) {
             setConnected(true);
             console.log('Connected: ' + frame);
             // 通过 stompClient.subscribe 订阅 /topic/answer 目标发送的信息，对应控制器的 SendTo 定义
-            stompClient.subscribe('/topic/answer2', function(respnose){
+            stompClient.subscribe('/topic/answer', function (respnose) {
                 // 展示返回的信息，只要订阅了 /topic/answer 目标，都可以接收到服务端返回的信息
                 showResponse(JSON.parse(respnose.body));
             });
@@ -62,7 +62,7 @@
         // 向服务端发送消息
         var msg = $('#msg').val();
         // 通过 stompClient.send 向 /ask （服务端）发送信息，对应控制器 @MessageMapping 中的定义
-        stompClient.send("/ask", {}, JSON.stringify({ 'message': msg }));
+        stompClient.send("/ask", {}, JSON.stringify({'message': msg}));
         $('#msg').val('');
     }
 
@@ -70,7 +70,7 @@
         console.log('accept: ' + message.message);
         // 接收返回的消息
         var response = $("#response");
-        response.html(response.html()+'<p>'+message.message+'</p>');
+        response.html(response.html() + '<p>' + message.message + '</p>');
 
     }
 </script>

@@ -1,4 +1,4 @@
-package com.chris.ws;
+package com.chris.ws.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
