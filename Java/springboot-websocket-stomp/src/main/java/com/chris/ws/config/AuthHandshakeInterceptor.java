@@ -23,6 +23,16 @@ import java.util.Map;
 public class AuthHandshakeInterceptor implements HandshakeInterceptor {
     private static final Logger log = LoggerFactory.getLogger(AuthHandshakeInterceptor.class);
 
+    /**
+     * 如果想让未登录用户以来宾账户连接，直接返回true就可以了
+     * 身份检查失败，怎么样才能直接返回，并且向前端传递错误信息呢？这样前端就可以跳转到登录页面先进行登录了
+     * @param request
+     * @param response
+     * @param wsHandler
+     * @param attributes
+     * @return
+     * @throws Exception
+     */
     @Override
     public boolean beforeHandshake(ServerHttpRequest request, ServerHttpResponse response, WebSocketHandler wsHandler, Map<String, Object> attributes) throws Exception {
 
