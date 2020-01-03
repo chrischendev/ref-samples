@@ -1,4 +1,5 @@
-
+.idea/
+*.js
 Java/shiro-demo/.idea/workspace.xml
 Java/netty-client-demo/.idea/workspace.xml
 Java/gradle-demo/.idea/workspace.xml
