@@ -1,5 +1,5 @@
 **/.idea/
 **/.mvn/
-**/tsrget/
+**/target/
 **/*.iml
 **/*.js
