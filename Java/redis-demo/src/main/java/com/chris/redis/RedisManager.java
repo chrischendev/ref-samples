@@ -9,9 +9,9 @@ import redis.clients.jedis.JedisPoolConfig;
  * use for:
  */
 public class RedisManager {
-    private String redisHost = "10.100.81.160";
+    private String redisHost = "192.168.0.114";
     private int redisPort = 6379;
-    private String redisAuth = "lrnJ5OPK";
+    private String redisAuth = null;
     private int redisTimeOut = 5000;
     private int redisPoolMaxTotal = 30;
     private int redisPoolMaxIdle = 10;
