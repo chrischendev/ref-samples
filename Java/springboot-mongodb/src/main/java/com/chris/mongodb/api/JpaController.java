@@ -36,4 +36,8 @@ public class JpaController {
         return userRepository.findAll();
     }
 
+    @GetMapping("/findByName")
+    public List<UserDocument> findByName(String name) {
+        return userRepository.findByName(name);
+    }
 }
