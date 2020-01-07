@@ -18,17 +18,16 @@ import java.util.Map;
  * Use for:
  */
 public class WebSocketVerticle extends AbstractVerticle {
-    private static Vertx vertx;
     private Map<String, ServerWebSocket> linkMap = new HashMap<>(16);
 
     private WebSocketVerticle() {
     }
 
-    public static Vertx run() {
-        vertx = Vertx.vertx();
+    public static WebSocketVerticle run() {
         WebSocketVerticle webSocketVerticle = new WebSocketVerticle();
-        vertx.deployVerticle(webSocketVerticle);
-        return vertx;
+        webSocketVerticle.vertx = Vertx.vertx();
+        webSocketVerticle.vertx.deployVerticle(webSocketVerticle);
+        return webSocketVerticle;
     }
 
     @Override
