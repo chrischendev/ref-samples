@@ -20,10 +20,11 @@ public class VertXServer extends AbstractVerticle {
     private VertXServer() {
     }
 
-    public static void run() {
+    public static VertXServer run() {
         VertXServer vertXServer = new VertXServer();
         vertXServer.vertx=Vertx.vertx();
         vertXServer.vertx.deployVerticle(vertXServer);
+        return vertXServer;
     }
 
     @Override
