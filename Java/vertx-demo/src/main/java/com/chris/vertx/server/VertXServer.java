@@ -16,16 +16,14 @@ import io.vertx.ext.web.handler.CorsHandler;
  * Use for: Vert.x服务器
  */
 public class VertXServer extends AbstractVerticle {
-    private Vertx vertx;
 
-    private VertXServer(Vertx vertx) {
-        this.vertx = vertx;
+    private VertXServer() {
     }
 
     public static void run() {
-        Vertx vertx = Vertx.vertx();
-        VertXServer vertXServer = new VertXServer(vertx);
-        vertx.deployVerticle(vertXServer);
+        VertXServer vertXServer = new VertXServer();
+        vertXServer.vertx=Vertx.vertx();
+        vertXServer.vertx.deployVerticle(vertXServer);
     }
 
     @Override
@@ -50,11 +48,6 @@ public class VertXServer extends AbstractVerticle {
                 System.out.println("Application start failed.");
             }
         });
-    }
-
-    @Override
-    public Vertx getVertx() {
-        return vertx;
     }
 
     public static void test(RoutingContext context) {

@@ -5,6 +5,7 @@ import io.vertx.core.Handler;
 import io.vertx.core.Vertx;
 import io.vertx.core.http.HttpServer;
 import io.vertx.core.http.ServerWebSocket;
+import io.vertx.core.http.impl.ServerWebSocketImpl;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 
@@ -61,6 +62,7 @@ public class WebSocketVerticle extends AbstractVerticle {
                         .forEach(idKey -> linkMap.get(idKey).writeTextMessage(textData));
             });
         };
+
         httpServer.websocketHandler(webSocketHandler);
     }
 }
